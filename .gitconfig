@@ -1,0 +1,14 @@
+[alias]
+    st = status --short
+    ci = commit
+    ca = commit --all
+    co = checkout
+    aa = add --all
+    di = diff
+    dc = diff --cached
+    pr = pull --rebase
+    ri = rebase --interactive
+    rc = rebase --continue
+    gpn = gc --prune=now
+    ra = !git --no-pager log --oneline -25
+    rh = reset --hard
