@@ -1,14 +1,20 @@
+[user]
+	name = Kamil Grabowski
 [alias]
-    st = status --short
-    ci = commit
-    ca = commit --all
-    co = checkout
-    aa = add --all
-    di = diff
-    dc = diff --cached
-    pr = pull --rebase
-    ri = rebase --interactive
-    rc = rebase --continue
-    gpn = gc --prune=now
-    ra = !git --no-pager log --oneline -25
+	st = status --short
+	ci = commit
+	ca = commit --all
+	co = checkout
+	aa = add --all
+	di = diff
+	dc = diff --cached
+	pr = pull --rebase
+	ri = rebase --interactive
+	rc = rebase --continue
+	gpn = gc --prune=now
+    ra = !git --no-pager log --oneline -40 --pretty=format:'%C(yellow)%h%Creset%Cred%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     rh = reset --hard
+    br = branch
+    fp = fetch --prune --prune-tags
+[core]
+    editor = vim
