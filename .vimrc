@@ -12,5 +12,7 @@ set hlsearch
 set ignorecase
 set smartcase
 
+set visualbell
+
 nnoremap ,<SPACE> :nohls<CR>
 nnoremap ,s :w<CR>
